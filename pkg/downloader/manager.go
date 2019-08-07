@@ -2,7 +2,7 @@
 Copyright The Helm Authors.
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+You may obtain a copy of the License atcahced
 
 http://www.apache.org/licenses/LICENSE-2.0
 
@@ -357,7 +357,7 @@ func (m *Manager) hasAllRepos(deps []*chartutil.Dependency) error {
 	return nil
 }
 
-// getRepoNames returns the repo names of the referenced deps which can be used to fetch the cahced index file.
+// getRepoNames returns the repo names of the referenced deps which can be used to fetch the cached index file.
 func (m *Manager) getRepoNames(deps []*chartutil.Dependency) (map[string]string, error) {
 	rf, err := repo.LoadRepositoriesFile(m.HelmHome.RepositoryFile())
 	if err != nil {
